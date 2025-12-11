@@ -92,7 +92,6 @@ fun ProfileContentView(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .verticalScroll(scrollState)
     ) {
         Text(
             text = "Профиль",
